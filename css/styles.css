@@ -1,0 +1,84 @@
+body {
+    background-color: #f6f6f6;
+}
+
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left,  blue, red,  green, yellow,  red);
+    -webkit-background-clip: text;
+    color: transparent;
+
+  }
+
+.eight { 
+    display: flex;
+    justify-content: center;
+
+}
+
+.pic {
+    height: 22rem;
+    width: 22rem;
+    background-image: url('./images/8ball\ front\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic2 {
+    height: 22rem;
+    width: 22rem;
+    background-image: url('./images/8ball\ window\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hidden {
+    display: none;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+}
+
+.inPut {
+    text-align: center;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:35%;
+    color: black;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+}
+
+.shakeBtn {
+    font-weight: 900;
+    color: white;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.replayBtn {
+    font-weight: 900;
+    color: white;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: white;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 9rem;
+    margin-right: 1.5rem;
+}
